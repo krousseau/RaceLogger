@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  div(ng-view)
+  
+block scripts
+  script(type="text/javascript")
+    !=JSON.stringify(raceTypes)
+
+  script(type="text/javascript", src='/javascript/app.js')
+  script(type="text/javascript", src='/javascript/controllers/race-controller.js')

@@ -1,0 +1,9 @@
+Starting Mongo:
+- open cmd prompt to C:\mongodb\bin and run mongod.exe (this is your server)
+- open new cmd prompt to C:\mongodb\bin and run mongo.exe (this is your query window)
+
+- change to use "racktracker" database. (use racetracker)
+-- racetypes collection
+
+- "show collections" will show all of our collections
+http://docs.mongodb.org/manual/tutorial/getting-started-with-the-mongo-shell/
